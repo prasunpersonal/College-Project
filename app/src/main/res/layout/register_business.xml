@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/registerTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:text="Register Business"
+                android:textColor="@color/orange"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/cancel"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/close_button_bg"
+                android:clickable="true"
+                android:minWidth="48dp"
+                android:padding="5dp"
+                app:srcCompat="@drawable/ic_close"
+                app:tint="#FFFFFF"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="5dp">
+
+            <EditText
+                android:id="@+id/shopName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edittext_bg"
+                android:drawableLeft="@drawable/ic_add_store"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Business Name"
+                android:inputType="textCapWords"
+                android:minHeight="48dp"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/ownerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edittext_bg"
+                android:drawableLeft="@drawable/ic_person"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:enabled="false"
+                android:hint="Owner's Name"
+                android:inputType="textPersonName|textCapWords"
+                android:minHeight="48dp"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/businessEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edittext_bg"
+                android:drawableLeft="@drawable/ic_email"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Business Email"
+                android:inputType="textEmailAddress"
+                android:minHeight="48dp"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/businessPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edittext_bg"
+                android:drawableLeft="@drawable/ic_phone"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Business Phone No."
+                android:inputType="phone"
+                android:minHeight="48dp"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edittext_bg"
+                android:drawableLeft="@drawable/ic_location"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Pin code"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/building"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edittext_bg"
+                android:drawableLeft="@drawable/ic_location"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Flat, House no., Building name, Apartment name, etc."
+                android:inputType="textPostalAddress|textCapWords"
+                android:minHeight="48dp"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/area"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edittext_bg"
+                android:drawableLeft="@drawable/ic_location"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Area, Colony, Street, Sector, Village"
+                android:inputType="textPostalAddress|textCapWords"
+                android:minHeight="48dp"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edittext_bg"
+                android:drawableLeft="@drawable/ic_location"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Town/City"
+                android:inputType="textPostalAddress|textCapWords"
+                android:minHeight="48dp"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edittext_bg"
+                android:drawableLeft="@drawable/ic_location"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="State"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edittext_bg"
+                android:drawableLeft="@drawable/ic_location"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Country"
+                android:inputType="textPostalAddress|textCapWords"
+                android:minHeight="48dp"
+                android:singleLine="true" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:padding="10dp"
+                android:text="Register"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:cornerRadius="50dp"
+                tools:ignore="TouchTargetSizeCheck" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

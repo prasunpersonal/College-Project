@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">College Project</string>
+    <string name="storage_name">College Project</string>
+
+    <string-array name="units">
+        <item>Litter</item>
+        <item>Milli Liter</item>
+        <item>Kilograms</item>
+        <item>Gram</item>
+        <item>Piece</item>
+        <item>Dozen</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="history">History</string>
+    <string name="business">Business</string>
+</resources>

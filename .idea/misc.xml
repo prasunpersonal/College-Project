@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Studio/College Project/app/src/main/res/drawable-v24/dialog_bg.xml" value="0.2715" />
+        <entry key="..\:/Android Studio/College Project/app/src/main/res/drawable-v24/tab_layout_bg.xml" value="0.2445" />
+        <entry key="..\:/Android Studio/College Project/app/src/main/res/drawable/ic_image.xml" value="0.2715" />
+        <entry key="..\:/Android Studio/College Project/app/src/main/res/drawable/ic_more.xml" value="0.2715" />
+        <entry key="..\:/Android Studio/College Project/app/src/main/res/drawable/selected_tab_bg.xml" value="0.2715" />
+        <entry key="..\:/Android Studio/College Project/app/src/main/res/layout/activity_customer_details.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio/College Project/app/src/main/res/layout/activity_delivery_guy_order_details.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio/College Project/app/src/main/res/layout/activity_home.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio/College Project/app/src/main/res/layout/activity_login.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio/College Project/app/src/main/res/layout/activity_pdfview.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio/College Project/app/src/main/res/layout/activity_profile.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio/College Project/app/src/main/res/layout/fragment_history.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio/College Project/app/src/main/res/layout/item.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio/College Project/app/src/main/res/layout/register_business.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio/College Project/app/src/main/res/layout/scanner_dialog.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio/College Project/app/src/main/res/menu/menu_business_profile.xml" value="0.27447916666666666" />
+        <entry key="..\:/Android Studio/College Project/app/src/main/res/menu/menu_profile.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/College Project/app/src/main/res/drawable-v24/tab_layout_bg.xml" value="0.290625" />
+        <entry key="..\:/AndroidStudioProjects/College Project/app/src/main/res/layout/activity_business.xml" value="0.2574074074074074" />
+        <entry key="..\:/AndroidStudioProjects/College Project/app/src/main/res/layout/activity_home.xml" value="0.4" />
+        <entry key="..\:/AndroidStudioProjects/College Project/app/src/main/res/layout/activity_login.xml" value="0.27447916666666666" />
+        <entry key="..\:/AndroidStudioProjects/College Project/app/src/main/res/layout/fragment_home.xml" value="0.4" />
+        <entry key="..\:/AndroidStudioProjects/College Project/app/src/main/res/layout/show_image.xml" value="0.23981481481481481" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/drawable-v24/badge_bg.xml" value="0.290625" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/drawable-v24/btn_blue_bg.xml" value="0.290625" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/drawable-v24/btn_orange_bg.xml" value="0.290625" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/drawable-v24/btn_red_bg.xml" value="0.290625" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/drawable-v24/close_button_bg.xml" value="0.290625" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/drawable-v24/dialog_bg.xml" value="0.290625" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/drawable-v24/main_tab_layout.xml" value="0.290625" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/drawable-v24/signup_bg.xml" value="0.290625" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/drawable-v24/tab_layout_bg.xml" value="0.290625" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/drawable-v24/tab_layout_item_color.xml" value="0.290625" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/drawable/bottom_sheet_dialog_bg.xml" value="0.290625" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/drawable/bottomsheet_dialog_bg.xml" value="0.290625" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/drawable/circle_dotted.xml" value="0.290625" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/drawable/edittext_bg.xml" value="0.290625" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/drawable/ic_add.xml" value="0.2777777777777778" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/drawable/ic_cancel_download.xml" value="0.290625" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/drawable/ic_download.xml" value="0.290625" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/drawable/ic_more.xml" value="0.290625" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/drawable/ic_person.xml" value="0.290625" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/drawable/ic_phone.xml" value="0.290625" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/drawable/ic_plus.xml" value="0.290625" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/drawable/ic_rupee.xml" value="0.290625" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/drawable/ic_search.xml" value="0.2777777777777778" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/drawable/ic_store.xml" value="0.290625" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/drawable/ic_user_circle.xml" value="0.290625" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/drawable/layout_bottomline_3dp.xml" value="0.290625" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/drawable/main_tab_layout.xml" value="0.290625" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/drawable/selected_tab_bg.xml" value="0.290625" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/activity_add_item.xml" value="0.4" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/activity_business.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/activity_cart.xml" value="0.48482060717571296" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/activity_code_scanner.xml" value="0.1743659420289855" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/activity_customer_details.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/activity_home.xml" value="0.4447257383966245" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/activity_login.xml" value="0.4" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/activity_pdfview.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/activity_profile.xml" value="0.72" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/activity_search.xml" value="0.3944610778443114" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/activity_signup.xml" value="0.72" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/activity_signup_login.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/business.xml" value="0.568259385665529" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/business2.xml" value="0.375" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/cart_item.xml" value="0.8" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/customer.xml" value="0.17980072463768115" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/customers.xml" value="0.6" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/fragment_add_Item.xml" value="0.536" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/fragment_add_item.xml" value="0.5432300163132137" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/fragment_bottom_sheet_dialog.xml" value="0.27447916666666666" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/fragment_business_profile.xml" value="0.6" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/fragment_cart.xml" value="0.245018115942029" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/fragment_create_post.xml" value="0.245018115942029" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/fragment_history.xml" value="0.5062439961575408" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/fragment_home.xml" value="0.4606643356643357" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/fragment_products.xml" value="0.27447916666666666" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/fragment_profile.xml" value="0.72" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/img_options.xml" value="0.6" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/invoice.xml" value="0.72" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/item.xml" value="0.72" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/item_options.xml" value="0.6" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/item_selection_dialog.xml" value="0.5036437246963563" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/normal_actionbar.xml" value="0.536" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/profile_actionbar.xml" value="0.4" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/profile_toolbar_layout.xml" value="0.72" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/register_business.xml" value="0.6" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/scanner_dialog.xml" value="0.4" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/search_actionbar.xml" value="0.536" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/show_image.xml" value="0.4" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/signup.xml" value="0.72" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/signup_dialog.xml" value="0.6" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/upload_menu.xml" value="0.6" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/menu/menu_business_profile.xml" value="0.27447916666666666" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/menu/menu_create_bill.xml" value="0.27447916666666666" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/menu/menu_done.xml" value="0.27447916666666666" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/menu/menu_history.xml" value="0.27447916666666666" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/menu/menu_home.xml" value="1.2" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/menu/menu_logout.xml" value="0.27447916666666666" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/menu/menu_main.xml" value="0.27447916666666666" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/menu/menu_pdfview.xml" value="0.27447916666666666" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/menu/menu_post.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/menu/menu_profile.xml" value="0.27447916666666666" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/xml/file_paths.xml" value="0.24320652173913043" />
+        <entry key="..\:/AndroidStudioProjects/app/src/main/res/xml/xml.xml" value="0.24320652173913043" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
