@@ -72,6 +72,25 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    private void loadData() {
+        progress.setVisibility(View.VISIBLE);
+        if (FirebaseAuth.getInstance().getCurrentUser() != null) {
+            FirebaseFirestore.getInstance().collection("Users").document(FirebaseAuth.getInstance().getCurrentUser().getUid()).get().addOnCompleteListener(task -> {
+                if (task.isSuccessful() && task.getResult() != null && task.getResult().exists()) {
+                    ME = task.getResult().toObject(User.class);
+                    startActivity(new Intent(this, BusinessActivity.class));
+                } else {
+                    Toast.makeText(this, "Something went wrong! Please try again.", Toast.LENGTH_SHORT).show();
+                    Log.d("TAG", "loadData: ", task.getException());
+                }
+                finish();
+            });
+        } else {
+            startActivity(new Intent(this, LoginActivity.class));
+            finish();
+        }
+    }
+
     @RequiresApi(api = Build.VERSION_CODES.R)
     private void showSettingsDialog() {
         if (alertDialog == null || !alertDialog.isShowing()) {
@@ -102,25 +121,6 @@ public class MainActivity extends AppCompatActivity {
             alertDialog = builder.create();
             alertDialog.setOnShowListener(dialog -> alertDialog.getButton(AlertDialog.BUTTON_NEGATIVE).setTextColor(ContextCompat.getColor(this, R.color.grey)));
             alertDialog.show();
-        }
-    }
-
-    private void loadData() {
-        progress.setVisibility(View.VISIBLE);
-        if (FirebaseAuth.getInstance().getCurrentUser() != null) {
-            FirebaseFirestore.getInstance().collection("Users").document(FirebaseAuth.getInstance().getCurrentUser().getUid()).get().addOnCompleteListener(task -> {
-                if (task.isSuccessful() && task.getResult() != null && task.getResult().exists()) {
-                    ME = task.getResult().toObject(User.class);
-                    startActivity(new Intent(this, BusinessActivity.class));
-                } else {
-                    Toast.makeText(this, "Something went wrong! Please try again.", Toast.LENGTH_SHORT).show();
-                    Log.d("TAG", "loadData: ", task.getException());
-                }
-                finish();
-            });
-        } else {
-            startActivity(new Intent(this, LoginActivity.class));
-            finish();
         }
     }
 
